@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_1" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_2" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">2</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_3" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">3</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_4" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">4</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_5" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">5</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_6" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">6</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_7" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">7</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_8" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">8</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_9" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">9</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_10" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">10</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_11" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">11</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_12" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">12</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_13" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">13</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_14" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">4</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_15" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">15</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_16" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">16</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_17" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">17</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_18" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">18</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_19" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">19</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_20" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">20</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_21" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">21</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_22" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">22</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_23" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">23</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_24" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">24</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_25" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">25</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_26" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">26</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_27" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">27</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_28" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">28</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_29" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">29</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_BURN_CITY_BONUS_30" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_RAZED_X_CITIES">
+				<Argument name="Amount">30</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_BURN_CITY_WAR_SUPPORT_DESCRIPTION</String>
+	</Modifier>
+
+
+
+
+</GameEffects>

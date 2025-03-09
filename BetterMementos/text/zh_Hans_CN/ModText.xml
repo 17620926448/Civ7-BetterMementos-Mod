@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LocalizedText>
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_QIN_WONDER_PRODUCTION_NAME" Language="zh_Hans_CN">
+			<Text>奇观误国</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_QIN_WONDER_PRODUCTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>秦始皇通过广泛征发民力，极大加快了奇观的建造。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_MEMENTO_QIN_WONDER_PRODUCTION_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造奇观时+40%生产力[icon:YIELD_PRODUCTION],定居点上限+3：随时代叠加,所有城市+5生产力[icon:YIELD_PRODUCTION]；你的所有奇观+4点幸福度[icon:YIELD_HAPPINESS]</Text>
+		</Row>
+
+
+
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_ISABELLA_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>伊莎贝拉的宝库</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_ISABELLA_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>和伊莎贝拉一起加入奇幻文明，探寻未知宝库</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_ISABELLA_ABILITY_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每当你发现自然奇观时+300金币[icon:YIELD_GOLD],自然奇观+100%地块产出,探路者+3视野,自然奇观+2金币[icon:YIELD_GOLD]</Text>
+		</Row>
+
+
+
+
+
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_WANGZHI_YINZHANG_NAME" Language="zh_Hans_CN">
+			<Text>王之印章</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_WANGZHI_YINZHANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>精心刻画了一位国王的形象</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_WANGZHI_YINZHANG_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你的特色建筑和改良设施+3[icon:YIELD_GOLD]金币/[icon:YIELD_CULTURE]文化，并且+1食物[icon:YIELD_FOOD]/生产力[icon:YIELD_PRODUCTION]/幸福度[icon:YIELD_HAPPINESS]/科技[icon:YIELD_SCIENCE]，你的军事/经济/外交/扩张/科技/文化属性点+1</Text>
+		</Row>
+
+
+		<Row Tag="LOC_MEMENTO_XERXES_ACHAEMENID_CHALCEDONY_SEAL_FUNCTIONAL_DESCRIPTION_OLD" Language="zh_Hans_CN">
+			<Text>特色建筑和改良设施+3[icon:YIELD_CULTURE]文化值和[icon:YIELD_GOLD]金币。</Text>
+		</Row>
+
+
+
+		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN" >
+			<Text>如果你拥有最多的自然奇观，你的自然奇观+100%地块产出，如果不是，海上单位+2战斗力</Text>
+		</Replace>
+
+
+
+
+
+
+
+		<!-- 纪念品名称 -->
+		<Replace Tag="LOC_MEMENTO_SUNZI_BINGFA_NAME" Language="zh_Hans_CN" >
+			<Text>孙子兵法</Text>
+		</Replace>
+
+		<!-- 背景描述 -->
+		<Replace Tag="LOC_MEMENTO_SUNZI_BINGFA_DESCRIPTION" Language="zh_Hans_CN"  >
+			<Text>知己知彼，百战不殆</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MEMENTO_SUNZI_BINGFA_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN"  >
+			<Text>1.当处于战争状态时+1移动力；2.指挥官+30%经验；3.在中立或敌方领土作战+3战斗力；4.首次占领定居点时+100文化[icon:YIELD_CULTURE]和金币[icon:YIELD_GOLD]；5.所有定居点+20%金币[icon:YIELD_GOLD]；6.定居点上限+3：随时代叠加；7.夷平城市+1战争支持：随夷平数量增加，上限为30点</Text>
+		</Replace>
+
+
+
+
+
+
+		<!-- 纪念品名称 -->
+		<Replace Tag="LOC_MEMENTO_XIANGWANG_FENCHENG_NAME" Language="zh_Hans_CN"  >
+			<Text>项王焚城</Text>
+		</Replace>
+
+		<!-- 背景描述 -->
+		<Replace Tag="LOC_MEMENTO_XIANGWANG_FENCHENG_DESCRIPTION" Language="zh_Hans_CN"  >
+			<Text>楚人一炬，可怜焦土。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MEMENTO_XIANGWANG_FENCHENG_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN" >
+			<Text>夷平1座城市+1战争支持：随着夷平城市数量增加，上限为30点</Text>
+		</Replace>
+
+
+		<!-- 纪念品名称 -->
+		<Replace Tag="LOC_MEMENTO_DA_TANG_SHENG_SHI_NAME" Language="zh_Hans_CN"  >
+			<Text>大唐盛世</Text>
+		</Replace>
+
+		<!-- 背景描述 -->
+		<Replace Tag="LOC_MEMENTO_DA_TANG_SHENG_SHI_DESCRIPTION" Language="zh_Hans_CN"  >
+			<Text>大唐盛世，万国来朝，文化辉煌</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MEMENTO_DA_TANG_SHENG_SHI_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN" >
+			<Text>成为城邦的宗主国时+200影响力，并获得当前20%影响力；当定居点达到5个时，科技和文化建筑+1影响力；当达到10个时+3影响力：随时代叠加；你的定居点上限+5：随时代叠加</Text>
+		</Replace>
+
+
+		<!-- 纪念品名称 -->
+		<Replace Tag="LOC_MEMENTO_SI_CHOU_ZHI_LU_NAME" Language="zh_Hans_CN"  >
+			<Text>丝绸之路</Text>
+		</Replace>
+
+		<!-- 背景描述 -->
+		<Replace Tag="LOC_MEMENTO_SI_CHOU_ZHI_LU_DESCRIPTION" Language="zh_Hans_CN"  >
+			<Text>古代东西方贸易与文化交流通道</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MEMENTO_SI_CHOU_ZHI_LU_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN" >
+			<Text>所有贸易路线范围+10；与其他领袖的贸易路线上限+3；每条贸易路线+2金币[icon:YIELD_GOLD]和文化值[icon:YIELD_CULTURE]，如果你拥有的贸易路线数量最高，此加成翻倍，按时代叠加；你的所有城市资源容量上限+3；当处于黄金时代时，解锁奇观购买</Text>
+		</Replace>
+
+
+
+		<!-- 功能描述（保留英文游戏术语） -->
+		<Row Tag="MEMENTO_SLOT_3" Language="zh_Hans_CN">
+			<Text>添加纪念品</Text>
+		</Row>
+
+
+		<!-- 功能描述（保留英文游戏术语） -->
+		<Row Tag="LOC_MEMENTO_SLOT_3_UNLOCK_TITLE" Language="zh_Hans_CN">
+			<Text>无需解锁</Text>
+		</Row>
+
+	
+</LocalizedText>
+</Database>

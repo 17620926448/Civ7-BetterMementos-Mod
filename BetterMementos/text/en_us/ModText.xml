@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_QIN_WONDER_PRODUCTION_NAME">
+			<Text>Qin's Wonders Mislead</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_QIN_WONDER_PRODUCTION_DESCRIPTION">
+			<Text>The First Emperor's decree accelerates wonder construction through relentless labor mobilization.</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_QIN_WONDER_PRODUCTION_FUNCTIONAL_DESCRIPTION">
+			<Text>Wonder Production+40%[icon:YIELD_PRODUCTION],Settlement Limit +3：Stacked with the Age,All cities +5 Production[icon:YIELD_PRODUCTION];+4 Happiness[icon:YIELD_HAPPINESS] from Wonders in all your cities.</Text>
+		</Row>
+
+
+
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_ISABELLA_ABILITY_NAME" >
+			<Text>Isabella’s Treasury</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_ISABELLA_ABILITY_DESCRIPTION" >
+			<Text>Join Isabella in the Fantasy Civilization and explore the unknown treasury.</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_ISABELLA_ABILITY_FUNCTIONAL_DESCRIPTION">
+			<Text>Gain +300 gold[icon:YIELD_GOLD] whenever you discover a natural wonder,Natural wonders +100% tile output,Pathfinder +3 Vision,Natural Wonders +2 Gold[icon:YIELD_GOLD]</Text>
+		</Row>
+		
+		
+		
+		
+		
+
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_WANGZHI_YINZHANG_NAME" >
+			<Text>King’s Seal</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_WANGZHI_YINZHANG_DESCRIPTION" >
+			<Text>Exquisitely crafted to depict the image of a great king.</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_WANGZHI_YINZHANG_FUNCTIONAL_DESCRIPTION">
+			<Text>Special Buildings and Improvement: +3 Gold[icon:YIELD_GOLD] and Culture[icon:YIELD_CULTURE], And +1 Food[icon:YIELD_FOOD]/Science[icon:YIELD_SCIENCE]/Happiness[icon:YIELD_HAPPINESS]/Production[icon:YIELD_PRODUCTION].+ 1 Military/Economic/Political/Expansionist/Scientific/Cultural Attribute.</Text>
+		</Row>
+
+
+
+
+		<Row Tag="LOC_MEMENTO_XERXES_ACHAEMENID_CHALCEDONY_SEAL_FUNCTIONAL_DESCRIPTION_OLD">
+			<Text>+3 [icon:YIELD_CULTURE]Culture and [icon:YIELD_GOLD]Gold on Unique Buildings and Improvements.</Text>
+		</Row>
+
+
+		<Replace Tag="LOC_MEMENTO_ISABELLA_PADRON_REAL_FUNCTIONAL_DESCRIPTION">
+			<Text>+100% yields on Natural Wonders, if you are working the most Natural Wonder tiles.[n]+2 Combat Strength for Naval Units if you are not.</Text>
+		</Replace>
+
+
+
+
+		
+		
+		
+		
+				<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_SUNZI_BINGFA_NAME" >
+			<Text>Art of War</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_SUNZI_BINGFA_DESCRIPTION" >
+			<Text>Know yourself and know your enemy, and you will never be defeated.</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_SUNZI_BINGFA_FUNCTIONAL_DESCRIPTION">
+			<Text>1.All Units  +1 Movement During wars; 2.Command Units + 30% exp; 3.Units +3 Combat in Neutral or enemy Territory;  4.+ 100 Culture[icon:YIELD_CULTURE] and Gold[icon:YIELD_GOLD] upon first occupying a settlement, stacking by Age; 5.All settlements +20% Gold[icon:YIELD_GOLD];  6.Settlement Limit +3：Stacked with the Age;  7.Razed a City will + 1 point of war support, Stack with the number of cities Razed, capped at 30 points.</Text>
+		</Row>
+
+
+
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_XIANGWANG_FENCHENG_NAME" >
+			<Text>Xiang Yu’s Conflagration</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_XIANGWANG_FENCHENG_DESCRIPTION" >
+			<Text>A single torch of the Chu, alas, leaving only scorched earth.</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_XIANGWANG_FENCHENG_FUNCTIONAL_DESCRIPTION">
+			<Text>Razed a City will + 1 point of war support, Stack with the number of cities Razed, capped at 30 points.</Text>
+		</Row>
+
+		
+		
+		<!-- 纪念品名称 -->
+		<Row Tag="LOC_MEMENTO_DA_TANG_SHENG_SHI_NAME" >
+			<Text>The Prosperous Era of the Tang Dynasty</Text>
+		</Row>
+
+		<!-- 背景描述 -->
+		<Row Tag="LOC_MEMENTO_DA_TANG_SHENG_SHI_DESCRIPTION" >
+			<Text>The Prosperous Era of the Tang Dynasty, where all nations come to pay tribute, and culture flourishes.</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_DA_TANG_SHENG_SHI_FUNCTIONAL_DESCRIPTION">
+			<Text>Gain +200 influence as suzerain of city-states and +20% influence; at 5 settlements  +1 influence for tech and culture; at 10 settlements, +3 influence, stacking with the age; settlement cap +5, stacking with the age.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_MEMENTO_SI_CHOU_ZHI_LU_NAME" >
+			<Text>Silk Road</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_SI_CHOU_ZHI_LU_DESCRIPTION" >
+			<Text>Ancient trade and cultural exchange route linking East and West</Text>
+		</Row>
+
+		<Row Tag="LOC_MEMENTO_SI_CHOU_ZHI_LU_FUNCTIONAL_DESCRIPTION" >
+			<Text>All trade routes +10 range; +3  trade routes cap with other leaders; Each trade route  +2 Gold[icon:YIELD_GOLD] and +2 Culture[icon:YIELD_CULTURE] :stacking with the age,If you have the most trade routes, the effect is doubled.; All cities +3 resource capacity; Unlocks Wonder purchases during Golden Ages</Text>
+		</Row>
+
+		
+		
+
+		<!-- 功能描述（直接显示效果） -->
+		<Row Tag="MEMENTO_SLOT_3">
+			<Text>Add Memento</Text>
+		</Row>
+
+
+		<!-- 功能描述（直接显示效果） -->
+		<Row Tag="LOC_MEMENTO_SLOT_3_UNLOCK_TITLE">
+			<Text>No need to unlock</Text>
+		</Row>
+
+
+
+
+
+
+	</EnglishText>
+</Database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- 英文名称 -->
+		<Row Tag="LOC_QIN_MEMENTO_MOD_NAME">
+			<Text>More Fun and Better Mementos</Text>
+		</Row>
+
+		<!-- 英文描述 -->
+		<Row Tag="LOC_QIN_MEMENTO_MOD_DESCRIPTION">
+			<Text>Added multiple fun and super cool souvenirs </Text>
+		</Row>
+	</EnglishText>
+</Database>
+
+

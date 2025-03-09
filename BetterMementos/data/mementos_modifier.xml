@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MEMENTOS_QIN_SHI_HUANG" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WONDER_PRODUCTION"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		
+		<Argument name="Percent">40</Argument>
+	</Modifier>
+	
+	<Modifier id="MEMENTOS_QIN_SHI_HUANG_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
+		</SubjectRequirements>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_FUNCTIONAL_DESCRIPTION</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTOS_QIN_SHI_HUANG_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_HUMAN" />
+		</SubjectRequirements>
+		
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">5</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTOS_QIN_SHI_HUANG_3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="ConstructibleClass">WONDER</Argument>
+		<Argument name="Amount">4</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTOS_ISABELLA_1" collection="COLLECTION_OWNER" effect="TRIGGER_PLAYER_GRANT_YIELD_ON_FIND_WONDER"    >
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">300</Argument>
+		<Argument name="DistantLandBonus">300</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_ISABELLA_ABILITY_NAME</Argument>
+	</Modifier>
+	
+	<Modifier id="MEMENTOS_ISABELLA_2" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_NATURAL_WONDER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_HAPPINESS</Argument>
+		<Argument name="Apply">Rate</Argument>
+		<Argument name="Percent">100</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_ISABELLA_ABILITY_NAME</Argument>
+	</Modifier>
+	
+	
+	<Modifier id="MEMENTOS_ISABELLA_3" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_SIGHT"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TYPE_MATCHES">
+				<Argument name="UnitType">UNIT_SCOUT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTOS_ISABELLA_4" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_NATURAL_WONDER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_ISABELLA_QUEENS_JEWELRY_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_ISABELLA_QUEENS_JEWELRY_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	
+	
+
+	<Modifier id="MEMENTO_WANGZHI_YINZHANG_1" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"   >
+		<Argument name="Tag">UNIQUE_IMPROVEMENT</Argument>
+		<Argument name="YieldType">YIELD_CULTURE, YIELD_GOLD</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_XERXES_ACHAEMENID_CHALCEDONY_SEAL_NAME</Argument>
+	</Modifier>
+	<Modifier id="MEMENTO_WANGZHI_YINZHANG_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"   >
+		<Argument name="Tag">UNIQUE</Argument>
+		<Argument name="YieldType">YIELD_CULTURE, YIELD_GOLD</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_XERXES_ACHAEMENID_CHALCEDONY_SEAL_NAME</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTO_WANGZHI_YINZHANG_3" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"   >
+		<Argument name="Tag">UNIQUE_IMPROVEMENT</Argument>
+		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION,YIELD_SCIENCE,YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_XERXES_ACHAEMENID_CHALCEDONY_SEAL_NAME</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTO_WANGZHI_YINZHANG_4" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD"   >
+		<Argument name="Tag">UNIQUE</Argument>
+		<Argument name="YieldType">YIELD_FOOD,YIELD_PRODUCTION,YIELD_SCIENCE,YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_XERXES_ACHAEMENID_CHALCEDONY_SEAL_NAME</Argument>
+	</Modifier>
+
+
+	
+
+	
+	<Modifier id="MEMENTO_WANGZHI_YINZHANG_5" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE"   run-once="true" >
+		<Argument name="Amount">1</Argument>
+		<Argument name="AttributeType">ATTRIBUTE_MILITARISTIC,ATTRIBUTE_ECONOMIC,ATTRIBUTE_POLITICAL,ATTRIBUTE_EXPANSIONIST,ATTRIBUTE_SCIENTIFIC,ATTRIBUTE_CULTURAL</Argument>
+	</Modifier>
+
+	
+	
+	
+
+
+	<Modifier id="MEMENTO_SUNZI_BINGFA_1" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_ACTIVE_WARS" />
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTO_SUNZI_BINGFA_2" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_GAME_TURN_ATLEAST">
+				<Argument name="MinGameTurn">2</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+	</Modifier>
+	
+	<Modifier id="MEMENTO_SUNZI_BINGFA_3" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY"   >
+		<Argument name="AbilityType">ABILITY_XERXES_UNIT_FOREIGN_TERRITORY</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTO_SUNZI_BINGFA_4" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_YIELD"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_FIRST_TIME_SETTLEMENT_OCCUPATION"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">100</Argument>
+	</Modifier>
+	<Modifier id="MEMENTO_SUNZI_BINGFA_5" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_YIELD"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_FIRST_TIME_SETTLEMENT_OCCUPATION"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">100</Argument>
+	</Modifier>
+	<Modifier id="MEMENTO_SUNZI_BINGFA_6" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">20</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTO_SUNZI_BINGFA_7" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
+		</SubjectRequirements>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
+	</Modifier>
+
+
+
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_FOR_BECOMING_SUZERAIN">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">200</Argument>
+	</Modifier>
+	
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_FOR_BECOMING_SUZERAIN">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Apply">Rate</Argument>
+		<Argument name="Percent">20</Argument>
+	</Modifier>
+	
+	
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_3" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+			<Argument name="Amount">5</Argument>
+		</Requirement>
+
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Tag">SCIENCE</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_4" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+			<Argument name="Amount">5</Argument>
+		</Requirement>		
+		
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Tag">CULTURE</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_5" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+			<Argument name="Amount">10</Argument>
+		</Requirement>
+
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Tag">SCIENCE</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_6" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS">
+			<Argument name="Amount">10</Argument>
+		</Requirement>
+
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Tag">CULTURE</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_HIMIKO_QUEEN_GOLDEN_SEAL_STONE_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_DA_TANG_SHENG_SHI_7" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP"   >
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
+		</SubjectRequirements>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">5</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_AUGUSTUS_CORONA_CIVICA_FUNCTIONAL_DESCRIPTION</Argument>
+	</Modifier>
+
+	
+	
+
+
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_1" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">10</Argument>
+		<Argument name="DomainType">DOMAIN_LAND</Argument>
+	</Modifier>
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">10</Argument>
+		<Argument name="DomainType">DOMAIN_SEA</Argument>
+	</Modifier>
+	
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY">
+		<Argument name="Amount">3</Argument>
+		<Argument name="MajorsOnly">true</Argument>
+	</Modifier>
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+	
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_5" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_MOST_TRADE_ROUTES">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_6" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_7" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_MOST_TRADE_ROUTES">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_NAME</Argument>
+		<String context="Description">LOC_MEMENTO_NAPOLEON_EMPEROR_GREEN_COLONEL_JACKET_FUNCTIONAL_DESCRIPTION</String>
+	</Modifier>
+	
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_8" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+	</Modifier>
+
+	<Modifier id="MEMENTO_SI_CHOU_ZHI_LU_9" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_WONDER_PURCHASING">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE" />
+		</SubjectRequirements>
+		<Argument name="PurchaseEfficiency">-120</Argument>
+		<String context="Description">LOC_MOD_GARDENS_OF_PARADISE_PURCHASE_ABILITY_DESCRIPTION</String>
+	</Modifier>
+
+
+</GameEffects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LocalizedText>
+		<Row Tag="LOC_QIN_MEMENTO_MOD_NAME" Language="zh_Hans_CN">
+			<Text>更多的纪念品</Text>
+		</Row>
+		<Row Tag="LOC_QIN_MEMENTO_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>加入了多个超模的纪念品</Text>
+		</Row>
+	</LocalizedText>
+</Database>
